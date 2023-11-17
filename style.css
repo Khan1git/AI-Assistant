@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+    height: 100%;
+}
+
+.container1{
+    display: flex;
+    background: url("file:///C:/Users/Arif%20Rahman/Downloads/wallhaven-nre16m.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.container1 .box{
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    justify-content: space-around;
+    height: 78vh;
+    width: 27vw;
+    display: flex;
+}
+
+.container1 .box .data{
+    position: absolute;
+    margin: 78px 2px;
+    font-size: large;
+    height: 65vh;
+    width: 26vw;
+    color: green;
+    background-color: black;
+
+}
+
+.container1 .box .data1{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    margin: 78px 2px;
+    justify-content: center;
+    height: 65vh;
+    width: 26vw;
+    align-items: center;
+    color: green;
+
+}
+.container1 .box .data2{
+    position: absolute;
+    margin: 78px 2px;
+    border: 2px solid red;
+    height: 65vh;
+    width: 26vw;
+    color: green;
+    background-color: black;
+
+}
+
+#btn{
+    background-color: green;
+    display: block;
+    position: absolute;
+    top: 252px;
+    left: 130px;
+    width: 99px;
+    height: 40px;
+    border-radius: 23px;    
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+}
+.data1 input{
+    background-color: black;
+    color: green;
+    height: 39px;
+    width: 276px;
+    border-radius: 24px;
+}
+
+.data1 img{
+    height: 20px;
+    position: absolute;
+    top: 38px;
+    width: 300px;
+    height: 183px;
+}
+
+#data {
+    color: green;
+}
